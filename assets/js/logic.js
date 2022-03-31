@@ -28,6 +28,11 @@ var questions = [
 ];
 
 // Variables to keep track of time
+var currentQuestions = 0;
+// indexed at 0
+var timer = questions.length * 15;
+// Allows you to keep a timer and score for your quiz
+var timerId;
 
 // Variables to help Traverse the DOM
 
