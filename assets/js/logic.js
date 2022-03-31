@@ -13,6 +13,7 @@ var submitBtn = document.getElementById("submit");
 var startBtn = document.getElementById("start");
 var initialsEl = document.getElementById("initials");
 var feedBackEl = document.getElementById("feedback");
+// var imgEl = document.getElementById(".img");
 // Questions for the Quiz
 var questions = [
     {
@@ -36,7 +37,7 @@ var questions = [
         answer: "Eye Lasers"
     },
     {
-        title: "Who plays Spider-Man on the big screen?",
+        title: "Who plays Spider-Man in the Marvel Cinematic Universe?",
         choices: ["Toby Maguire", "Tom Holland", "Andrew Garfield", "All of the Above"],
         answer: "All of the Above"
     },
