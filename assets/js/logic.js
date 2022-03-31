@@ -1,3 +1,18 @@
+// Variables to keep track of time
+var currentQuestions = 0;
+// indexed at 0
+var timer = questions.length * 15;
+// Allows you to keep a timer and score for your quiz
+var timerId;
+
+// Variables to help Traverse the DOM
+var questionsEl = document.getElementById("questions");
+var timer = document.getElementById("time");
+var choiceEl = document.getElementById("choices");
+var submitBtn = document.getElementById("submit");
+var startBtn = document.getElementById("start");
+var initialsEl = document.getElementById("initials");
+var feedBackEl = document.getElementById("feedback");
 // Questions for the Quiz
 var questions = [
     {
@@ -27,25 +42,41 @@ var questions = [
     },
 ];
 
-// Variables to keep track of time
-var currentQuestions = 0;
-// indexed at 0
-var timer = questions.length * 15;
-// Allows you to keep a timer and score for your quiz
-var timerId;
-
-// Variables to help Traverse the DOM
-
 // Start Quiz Function
+function beginQuiz() {
+
+}
 
 // Get Quiz questions
+function getQuestions() {
+
+}
 
 // Question button clicks
+function clickQuestions() {
+
+}
 
 // End the Quiz
+function endTheQuiz() {
+
+}
 
 // Timer Function
+function clockCountDown() {
+
+}
 
 // Save the Score
+function saveHighScores() {
+
+}
 
 // Key event functions
+function enterBtnEvent() {
+
+}
+
+submitBtn.onclick = saveHighScores;
+startBtn.onclick = beginQuiz;
+initialsEl.onkeyup = enterBtnEvent;
