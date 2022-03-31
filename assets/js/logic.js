@@ -26,3 +26,21 @@ var questions = [
         answer: "All of the Above"
     },
 ];
+
+// Variables to keep track of time
+
+// Variables to help Traverse the DOM
+
+// Start Quiz Function
+
+// Get Quiz questions
+
+// Question button clicks
+
+// End the Quiz
+
+// Timer Function
+
+// Save the Score
+
+// Key event functions
