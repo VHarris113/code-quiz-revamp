@@ -45,12 +45,23 @@ var questions = [
 
 // Start Quiz Function
 function beginQuiz() {
+    // hide the start screen during the quiz
+    var startQuizEl = document.getElementById("start");
+    startScreenEl.setAttribute("class", "hide");
 
+    // make the questions appear on the page
+    questionsEl.removeAttribute("class");
+
+    // start the time
+
+    // show starting time on the page
+
+    getQuestions();
 }
 
 // Get Quiz questions
 function getQuestions() {
-
+    
 }
 
 // Question button clicks
